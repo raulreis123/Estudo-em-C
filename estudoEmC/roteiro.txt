@@ -1,0 +1,10 @@
+Propagar e disponibilizar conhecimento a todos é essencial!
+
+
+Irei fazer algumas recomendações de por onde começar o estudo:
+1 - hello-world.
+2 - variaveis.
+3 - if else.
+4 - switch.
+5 - for.
+6 - funções.

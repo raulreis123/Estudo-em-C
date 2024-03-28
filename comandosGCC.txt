@@ -1,0 +1,35 @@
+GCC significa GNU compiler collections, ele é usado principalmente para compilar programas em C e C++ é uma biblioteca nativa dos sistemas GNU/Linux.
+
+1. gcc --version
+    Exibi e versão GCC instalada na máquina.
+
+2. gcc (arquivo de extensão C ou C++)
+    Esse comando é o que compila os arquivos e transforma em um arquivo de saida chamado .out por padrão
+    que pode ser executado com o comando ./a.out
+
+3. gcc (arquivo) -o opt(nome opcional)
+    Esse comando ira compilar o arquivo e ao invés de dar uma saida padrão .out irá dar a saida de acordo 
+    com o nome dado após o -o (-o e para opção de saida de arquivo).
+
+4. gcc source.c(arquivo) -Werror -o opt(nome de saida)
+    Esse comando ira compilar o código fonte do arquivo e exibir se há algum erro, -W é para mostrar os 
+    erros.
+
+5. gcc source.c -Wall -o opt
+    Esse comando não irá apenas mostrar os erros, mas também todos os warnings, como variáveis não 
+    utilizadas é um dos comandos mais úteis que tem.
+
+6. gcc -ggdb3 source.c -Wall -o opt
+    A opção -ggdb3 é utilizada para nos dar permissão gdb**.
+
+7. gcc -Wall source.c -o opt -lm
+    O comando -l serve para linkar uma biblioteca específica ao arquivo, no caso do -lm é a 
+    biblioteca math.h
+
+8. gcc -Wall -std=c11 source.c -o opt
+    Este comando usará a versão c11 dos padrões para compilar o programa source.c, que permite
+    definir variáveis ​​nas inicializações de loop, também usando versões de padrões mais recentes.
+
+9. gcc -c source.c -o opt
+    A opção -c compila o programa e nos fornece um arquivo tipo objeto de saida, que pode ser
+    utilizado na criação de bibliotecas.
